@@ -1,0 +1,12 @@
+.btn-warning:hover{
+    background-color: orangered;
+}
+canvas{
+    animation-name: gentlemen;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes gentlemen{
+   from{box-shadow: 1px 1px 40px black;}
+   to  {box-shadow: 1px 1px 40px brown;}
+}
